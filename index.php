@@ -1,18 +1,13 @@
-<?php
-$link = mysqli_connect("127.0.0.1", "root", "yarpyae123", "movies");
-
-if (!$link) {
-    echo "Error: Unable to connect to MySQL." . PHP_EOL;
-    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
-    exit;
-}
-
-echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
-echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
-
-mysqli_close($link);
-//$sql = "SELECT * FROM Category";
-//$result = $link->query($sql);
-//echo json_encode($arr);
-?>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+    <li> <a href="index2.php">Many use $</a> </li>
+        <li> <a href="operator.php">Opertor</a> </li>
+        <li> <a href="Assignment_By_reference.php">Assignment By reference</a> </li>
+</body>
+</html>
